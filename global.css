@@ -255,3 +255,11 @@ padding: 50px;
 text-align: center;
 
 }
+
+ul, li{
+    font-size: 1.6rem;
+    font-family: Arial;
+    text-align: left;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
