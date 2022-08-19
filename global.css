@@ -15,6 +15,14 @@ color: white;
 font-family: Arial;
 width: 100%;
 position: fixed;
+
+}
+
+@media(min-width: 320px) and (max-width: 450px){
+    header{
+        text-align: center;
+        }
+
 }
 
 #logo{
@@ -190,6 +198,19 @@ margin-right: 2%;
 word-spacing: 10px;
 }
 
+@media(min-width:320px) and (max-width:450px){
+    nav{
+
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+        font-family: arial;
+        font-size: 1.6rem;
+        margin-right: 2%;
+        word-spacing: 15px;
+        }
+}
+
 a{
 text-decoration: none;
 color: rgb(255, 255, 255);
@@ -216,9 +237,10 @@ box-shadow: 3px 3px 3px #4339c4;
 }
 
 .img-grid{
-width: 160px;
-height: 90px;
-border-radius: 20px;
+    width: 160px;
+    height: 90px;
+    border-radius: 20px;
+    transition: 500ms ease-in-out;
 
 }
 
